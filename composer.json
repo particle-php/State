@@ -1,0 +1,38 @@
+{
+    "name": "particle/state",
+    "type": "library",
+    "description": "A rather simplistic but pretty finite state machine implementation",
+    "keywords": ["finite", "state", "machine", "fsm"],
+    "homepage": "http://github.com/particle-php/state",
+    "license" : "BSD",
+    "authors" : [
+        {
+            "name": "Berry Langerak",
+            "email": "berry@berryllium.nl",
+            "role": "developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.4",
+        "league/event": "^2.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.0",
+        "squizlabs/php_codesniffer": "2.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Particle\\State\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Particle\\State\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
