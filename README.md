@@ -21,7 +21,7 @@ Nevertheless, check them out. Maybe they'll serve you better.
 
 ## Small usage example
 
-```
+```php
 $initialState = State::withName('pending');
 
 $machine = StateMachine::withStates($initialState, StateCollection::withStates([
