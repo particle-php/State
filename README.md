@@ -7,15 +7,17 @@ than you would imagine!).
 ### Why?
 
 With [winzou/statemachine][winzou] and [yohang/finite][finite] already in Packagist, why would we go for another
-package implementing the very same concept? Well, first of all, Particle\State is very small in comparison, doing
-next to nothing. That means everything it *does* do is easy to follow, without having to wade through lots of code.
+package implementing the very same concept?
+
+Well, first of all, Particle\State is very small in comparison, doing next to nothing. That means everything it
+*does* do is easy to follow, without having to wade through lots of code. Also, by doing only one thing, it's
+rather easy to learn how to use this library.
 
 On top of that, we wanted to have a library that is not obtrusive: you can implement *Particle\State* without
 having to model your objects in a certain way. Indeed, *Particle\State* does not have any interface you need to
 implement.
 
-Nevertheless, check them out. Maybe they'll serve you better. Honestly, a part of implementing this library is
-that building finite state machines is **fun** and the result was worth sharing.
+Nevertheless, check them out. Maybe they'll serve you better.
 
 ## Small usage example
 
