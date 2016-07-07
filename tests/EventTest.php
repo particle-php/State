@@ -17,7 +17,7 @@ class EventTest extends TestCase
     /** @var array */
     protected $log = [];
 
-    public function setUp()
+    protected function setUp()
     {
         $states = StateCollection::withStateNames([
             'pending',

@@ -16,7 +16,7 @@ class StateMachineTest extends TestCase
     /** @var StateMachine */
     protected $machine;
 
-    public function setUp()
+    protected function setUp()
     {
         $this->machine = StateMachine::withStates(State::withName('pending'), StateCollection::withStates([
             State::withName('pending'),
