@@ -37,7 +37,7 @@ $machine->addTransition(Transition::withStates('start', ['pending'], 'started'))
 $machine->addTransition(Transition::withStates('accept', ['started'], 'accepted'));
 
 $machine->addListener(function (Event\TransitionApplied $event) {
-    if ($event->wasFromState(State:withName('pending')) {
+    if ($event->wasFromState(State::withName('pending')) {
         echo "The state was pending. Not anymore though :)";
     }
 });
